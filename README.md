@@ -1,5 +1,5 @@
 # dict_attack
-  Simple dictionary attack script made with Python3.6.
+  Very simple dictionary attack script made with Python3.6.
 
 # What is a dictionary attack?
   A dictionary attack is an password attempt using a dictionary that contains standard passwords, logins or both.
