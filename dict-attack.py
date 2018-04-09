@@ -19,4 +19,4 @@ for line in f.readlines():
         break
 if not login.status_code == 200:
     print ("-" * 25)
-    print ("Nenhuma senha encontrada!")
+    print ("None password found!")
