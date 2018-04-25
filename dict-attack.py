@@ -17,6 +17,6 @@ for line in f.readlines():
         print ("Password: \033[1;32m{}\033[m" .format(line))
         print ("-" * 25)
         break
-if not login.status_code == 200:
+if login.status_code != 200:
     print ("-" * 25)
     print ("None password found!")
